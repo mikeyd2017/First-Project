@@ -13,7 +13,7 @@ import ShopSearch from './components/ShopSearch';
 
 export default ({ childProps }) => (
     <Switch>
-        <AppliedRoute  path ="/" exact component={Login} props={childProps} />
+        <AppliedRoute  path ="/" exact component={ShopHome} props={childProps} />
         <AppliedRoute path ="/Admin" exact component={Admin} props={childProps} />
         <AppliedRoute path ="/Cart" exact component={Cart} props={childProps} />
         <AppliedRoute path ="/Login" exact component={Login} props={childProps} />
